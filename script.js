@@ -11,7 +11,7 @@ const getData           = document.getElementById("getWholeData");
 
 // NASA API
 const final_date = "";
-const apiKey = "5dIbMbuH7IAAp19JeBF3lXNchHbWKQd9pqY5HZdK";
+const apiKey = "0Yn5SenNZytMLmRcyRdHBQNt52Lvg41KM1j7k0jX";
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=`;
 
 let resultsArray = [];
