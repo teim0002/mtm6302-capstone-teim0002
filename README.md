@@ -1,1 +1,3 @@
-# mtm6302-capstone-teim0002
+Parisima Teimorzadeh
+040778614
+Astronomy Picture of the Day Search

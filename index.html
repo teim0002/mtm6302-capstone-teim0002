@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>APDO</title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	
+</head>
+
+<body>
+	<!-- Container -->
+	<div class="container">
+
+		<div id="get-date">
+			<input type="text" placeholder="YYYY-MM-DD" class="date-input" id="dinput"/>
+			<button class="send-btn" id="getWholeData">Request</button> 
+		</div>
+
+
+		<!-- Navigation -->
+		<div class="navigation-container">
+			<span class="background"></span>
+
+			<!-- Results Nav -->
+			<span class="navigation-items" id="resultsNav">
+				<h3 class="clickable" id="gotof">Favorites</h3>
+			</span>
+
+			<!-- Favorites Nav -->
+			<span class="navigation-items hidden" id="favoritesNav">
+				<h3 class="clickable" id="gotor">Main Page</h3>
+			</span>
+		</div>
+
+		<!-- Images Container -->
+		<div class="images-container">
+			
+		</div>  
+
+	</div>
+
+	<!-- Save Confirmation -->
+	<div class="save-confirmed" hidden="true">
+		<h1>ADDED!</h1>
+	</div>
+
+	<!-- Script -->
+	<script src="script.js"></script>
+</body>
+</html>
